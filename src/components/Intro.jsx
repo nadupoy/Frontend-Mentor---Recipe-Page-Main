@@ -5,14 +5,18 @@ const Intro = () => {
   return (
     <>
       <img src={heroImage} alt="hero-image" />
-      <h1>Simple Omelette Recipe</h1>
-      <p>
-        An easy and quick dish, perfect for any meal. This classic omelette
-        combines beaten eggs cooked to perfection, optionally filled with your
-        choice of cheese, vegetables, or meats.
-      </p>
+      <section className="w-[312px] m-auto">
+        <h1 className="text-dark-charcoal font-serif text-4xl mt-4 mb-4">
+          Simple Omelette Recipe
+        </h1>
+        <p className="text-wenge-brown text-base">
+          An easy and quick dish, perfect for any meal. This classic omelette
+          combines beaten eggs cooked to perfection, optionally filled with your
+          choice of cheese, vegetables, or meats.
+        </p>
 
-      <Preparation />
+        <Preparation />
+      </section>
     </>
   );
 };
