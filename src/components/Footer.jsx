@@ -2,7 +2,7 @@ import { links } from "../constants";
 
 const Footer = () => {
   return (
-    <footer className="text-center text-xs mb-4">
+    <footer className="text-center text-xs mb-4 xl:w-full">
       <p className="text-wenge-brown">
         Challenge by{" "}
         <a

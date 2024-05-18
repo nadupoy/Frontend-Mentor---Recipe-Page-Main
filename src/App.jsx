@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <>
+    <section className="xl:m-auto">
       <main>
         <Intro />
         <Ingredients />
@@ -14,7 +14,7 @@ const App = () => {
         <Nutrition />
       </main>
       <Footer />
-    </>
+    </section>
   );
 };
 

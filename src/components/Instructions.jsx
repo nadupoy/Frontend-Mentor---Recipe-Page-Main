@@ -1,8 +1,8 @@
 const Instructions = () => {
   return (
-    <section className="w-[304px] m-auto mb-6 border-b-2 border-b-light-grey">
+    <section className="w-[304px] m-auto mb-6 border-b-2 border-b-light-grey xl:w-full">
       <h2 className="text-nutmeg font-serif text-3xl mb-4">Instructions</h2>
-      <ol className="list-decimal ml-6 text-nutmeg font-bold w-72">
+      <ol className="list-decimal ml-6 text-nutmeg font-bold w-72 xl:w-[95%]">
         <li className="mb-2">
           <p className="pl-4 text-wenge-brown font-normal">
             <b>Beat the eggs: </b>In a bowl, beat the eggs with a pinch of salt

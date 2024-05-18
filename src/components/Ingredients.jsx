@@ -1,6 +1,6 @@
 const Ingredients = () => {
   return (
-    <section className="w-[304px] m-auto mb-6 border-b-2 border-b-light-grey">
+    <section className="w-[304px] m-auto mb-6 border-b-2 border-b-light-grey xl:w-full">
       <h2 className="text-nutmeg font-serif text-3xl mb-4">Ingredients</h2>
       <ul className="list-disc pl-4 text-nutmeg ml-2">
         <li className="mb-2">

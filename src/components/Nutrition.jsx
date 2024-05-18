@@ -1,6 +1,6 @@
 const Nutrition = () => {
   return (
-    <section className="w-[304px] m-auto mb-6">
+    <section className="w-[304px] m-auto mb-6 xl:w-full">
       <h2 className="text-nutmeg font-serif text-3xl mb-4">Nutrition</h2>
       <p className="text-wenge-brown mb-4">
         The table below shows nutritional values per serving without the
